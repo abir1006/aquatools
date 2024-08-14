@@ -1,0 +1,1 @@
+ AquaTools is a strategic decision-support admin tool used to assess how to optimize biological and economic benefits in aquaculture production. The software provides an option to do cost-benefit evaluations and visualize the effects of changes in production biology and production economy
