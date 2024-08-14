@@ -1,0 +1,601 @@
+@import url("https://use.typekit.net/bis8jem.css");
+
+html, body, #app {
+    height: 97% !important;
+    background-color: #f6f6f6;
+    font-size: 16px !important;
+    font-family: acumin-pro-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3a343a;
+    scroll-behavior: smooth;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a343a;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover {
+    color: #102640;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #818181;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #818181;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #818181;
+}
+
+.rounded-lg-8 {
+    border-radius: 8px;
+}
+
+.section-block {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+.content-block {
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    float: left;
+    border-radius: 8px;
+}
+
+.content-block-grey {
+    background-color: #f7f7ed;
+    width: 100%;
+    padding: 15px;
+    float: left;
+    border-radius: 8px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.content-block-light-blue {
+    background-color: #e9f3f4;
+    border-radius: 8px;
+}
+
+.content-block-dark-blue {
+    background-color: #102640;
+}
+
+.content-block-dark-blue {
+    color: white;
+}
+
+.no-radius {
+    border-radius: 0;
+}
+
+.card form {
+    padding: 11px;
+    background-color: #f7f7ed;
+}
+
+.block-card {
+    border: none;
+}
+
+.input-block {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    height: 40px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 0;
+    color: #000000 !important;
+}
+
+input[type=radio] {
+    transform: scale(1.5);
+    margin-right: 8px;
+}
+
+#template_page input[type=text],
+#search_users input[type=text],
+#search_panel input[type=text] {
+    margin-bottom: 0;
+}
+
+.is-invalid {
+    border: 1px solid red !important;
+}
+
+button.default-btn-atv2 {
+    height: 40px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #102640;
+    text-transform: uppercase;
+    min-width: 104.8px;
+    margin: 3.5px 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+button.btn-small {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #102640;
+    text-transform: uppercase;
+    min-width: 60px;
+    margin: 3.5px 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+button.default-btn-atv2.at2-login-btn {
+    font-size: 14px;
+}
+
+button.default-btn-atv2:hover,
+button.default-btn-atv2:disabled,
+button.default-btn-atv2:focus,
+button.default-btn-atv2:active {
+    background-color: #102640 !important;
+    color: white !important;
+}
+
+button.at2-btn-no-bg, button.at2-btn-no-bg:focus {
+    outline: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: unset;
+    padding: 0;
+    margin: 0 20px 0 0;
+    line-height: 0;
+}
+
+button.at2-info-icon-btn,
+button.at2-info-icon-btn:hover,
+button.at2-info-icon-btn:focus {
+    margin: 0;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    line-height: 15px;
+    background: white;
+    border: 1px solid #102640;
+    border: radius;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button.at2-btn-down-angle,
+button.at2-btn-down-angle:focus,
+button.at2-btn-down-angle:hover {
+    outline: none;
+    background: white;
+    border: none;
+    box-shadow: none;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 15px 0 0;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+button.at2-btn-down-angle i {
+    margin-right: 0;
+}
+
+button.at2-btn-grey-outline {
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button.at2-btn-grey-outline i {
+    margin: 0;
+}
+
+.btn_wrapper {
+    width: 100%;
+    float: left;
+    margin-top: 0;
+}
+
+.btn_wrapper .default-btn-atv2 {
+    width: 100%;
+    height: 59px;
+}
+
+i.blue-stroke {
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #102640;
+    color: white;
+    line-height: 16px;
+}
+
+i.white-stroke {
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 16px;
+}
+
+i.grey-stroke {
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #f7f7ed;
+    line-height: 16px;
+}
+
+i.color-green {
+    color: #76af1b;
+}
+
+i.green-stroke {
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #76af1b;
+    line-height: 16px;
+}
+
+i.color-red {
+    color: #f34b4b;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+span.btn-span {
+    float: right;
+    margin-top: -1px;
+}
+
+.lost-password-panel {
+    width: 100%;
+    padding: 21px 0;
+}
+
+.at2_error_text {
+    font-size: 12px;
+    color: red;
+    margin: 0;
+}
+
+.at2_harvest_date_text {
+    font-size: 12px;
+    color: #1573C3;
+    margin: 0;
+    font-weight: bold;
+}
+
+#sidebar {
+    transition-duration: .40s;
+}
+
+.custom-nav-collapse {
+    width: 86px;
+    max-width: 86px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: .40s;
+}
+
+.custom-middle-content-expand {
+    width: 65%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom-right-content-expand {
+    width: 30%;
+    float: left;
+    padding-right: 15px;
+}
+
+.custom-content-expand {
+    width: calc(100% - 101px);
+    max-width: calc(100% - 101px);
+    float: left;
+    padding-left: 15px;
+    padding-right: 0;
+    transition-duration: .30s;
+}
+
+.svg-dark-icon {
+    filter: invert(1);
+}
+
+.word_capitalize {
+    text-transform: capitalize;
+}
+
+table thead th {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.form_sub_heading {
+    width: 100%;
+    padding: 9px 0;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3a343a;
+    font-weight: 600;
+}
+
+.table-responsive {
+    position: relative;
+    min-height: 200px;
+}
+
+.content_spinner {
+    background: white;
+    min-height: 200px;
+    line-height: 200px;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+.content_spinner i {
+    font-size: 20px;
+}
+
+.spinner_wrap {
+    width: 100%;
+    background: white;
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.agreementDate {
+    display: block;
+    height: 20px;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+.datetime-picker-popup .time {
+    display: none !important;
+}
+
+.input-disable, .input-disable i.fa {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: #8a8a8a;
+}
+
+.input-disable .at2_check_box {
+    border: 1px solid #8a8a8a;
+}
+
+/* Multi select custom styles */
+
+#multiselectContainerReact div:first-child {
+    border: none;
+    background: #fff;
+    padding: 0.1rem 0.75rem;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+#multiselectContainerReact div:first-child span {
+    padding: 4px;
+    background: #e0eaeb;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    color: #3a343a;
+    white-space: nowrap;
+}
+
+#multiselectContainerReact .searchBox {
+    margin: 0;
+}
+
+#multiselectContainerReact .optionListContainer {
+    border-radius: 0;
+}
+
+#multiselectContainerReact ul.optionContainer {
+    border-radius: 0;
+    padding: 10px 0;
+}
+
+#multiselectContainerReact ul.optionContainer li {
+    padding: 4px 10px;
+}
+
+#multiselectContainerReact ul.optionContainer li.highlight {
+    background: none;
+    color: black;
+}
+
+#multiselectContainerReact ul.optionContainer li:hover {
+    background: none;
+    color: black;
+}
+
+i.fa-btn {
+    cursor: pointer;
+}
+
+i.fa-times {
+    cursor: pointer;
+}
+
+select {
+    outline: none;
+    border-color: #8a8a8a;
+    background-color: white;
+}
+
+select#feed_cost {
+    width: 100px;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.screen-block-inputs .row {
+    position: relative;
+}
+
+.help_text_block {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 7.2%;
+    top: 6px;
+    z-index: 95;
+}
+
+.help_text_block_for_2_cols {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 11%;
+    top: 6px;
+    z-index: 95;
+}
+
+.budget_block_name_label {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.help_text_block_name {
+    right: 7.5%;
+}
+
+.budget_block_name_input {
+    width: 63%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h5.output-heading {
+    position: relative;
+}
+
+.output-heading .at2-info-icon-btn {
+    position: absolute;
+    right: 0;
+    margin-top: 3px !important;
+    margin-left: 0 !important;
+}
+
+.input_divider {
+    clear: both;
+    float: none;
+    height: 1px;
+    display: block;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.col-12 > .input_divider {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+
+.model-action-tabs .atv2-action-btn {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#basic_block_row {
+    margin-right: -2.3%;
+}
+
+/* End */
+
+/* CSS for Responsive Mobile View */
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    #basic_block_row {
+        margin-right: -11px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #basic_block_row {
+        margin-right: -8px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #sidebar {
+        height: 68px;
+    }
+
+    .content-block {
+        margin-top: 15px;
+    }
+
+    button.default-btn-atv2 {
+        padding: 0 10px;
+        min-width: 45px;
+    }
+
+    #model_tool_bar {
+        margin-top: 15px;
+    }
+}

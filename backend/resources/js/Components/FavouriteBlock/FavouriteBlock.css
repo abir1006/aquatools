@@ -1,0 +1,78 @@
+.favourite-block {
+    width: 100%;
+    float: left;
+    height: calc(100vh - 30px);
+}
+
+.favourite-block ul {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.favourite-block .block-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a343a;
+    height: 22.5px;
+    line-height: 22.5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15.5px;
+    padding-left: 37px;
+    background: url('Icons/favourite_block_name_model_icon_dark.svg') no-repeat 0;
+    background-position-y: center;
+}
+
+.favourite-block ul li {
+    margin-bottom: 10px;
+}
+
+.favourite-block ul li a {
+    display: flex;
+    height: calc(11.1vh);
+    /*line-height: calc(9.6vh);*/
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding:0 15px;
+    background-color: #f7f7ed;
+    color: #3a343a;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+}
+
+.favourite-block ul li a i {
+    position: absolute;
+    z-index: 0;
+    right: 15px;
+    height: 20px;
+}
+
+.favourite-block ul li a .status {
+    font-size: 11px;
+    color: rgb(118, 175, 27)
+}
+
+.favourite-block ul li > div {
+    display: flex;
+    height: calc(11.1vh);
+    /*line-height: calc(9.6vh);*/
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding:0 15px;
+    background-color: #f7f7ed;
+    color: #3a343a;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.favourite-block li.inactive{
+    opacity: .5;
+}

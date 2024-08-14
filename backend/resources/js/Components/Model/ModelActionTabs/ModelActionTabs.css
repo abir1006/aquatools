@@ -1,0 +1,45 @@
+.model-action-tabs .btn {
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.model-action-tabs .btn img {
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+span.table-view-wrapper {
+    width: 18px;
+    height: 18px;
+    line-height: 14px;
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+    border-radius: 2px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.model-action-tabs .btn span.table-view-wrapper img {
+    float: none;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    span.table-view-wrapper {
+        margin: 0 0 0 2px;
+        padding: 4px;
+    }
+
+    .model-action-tabs .btn img {
+        float: none;
+        margin: 0;
+    }
+
+    .model-action-tabs .btn > span.table-view-wrapper img {
+        float: left;
+    }
+}

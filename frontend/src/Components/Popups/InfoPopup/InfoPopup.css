@@ -1,0 +1,26 @@
+#at2_info_popup {
+    position: fixed;
+    width: 238px;
+    min-height: 84px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+#at2_info_popup span {
+    display: block;
+    padding: 8px 8px 0 0;
+    width: 100%;
+    float: left;
+}
+
+#at2_info_popup p {
+    padding: 2px 20px 20px 20px;
+    margin: 0;
+    line-height: 1.13;
+    word-wrap: break-word;
+}
+
+#at2_info_popup i {
+    float: right;
+}

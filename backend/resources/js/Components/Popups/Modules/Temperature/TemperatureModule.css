@@ -1,0 +1,77 @@
+#at2_popup .temperature_module_popup {
+    max-width: 800px;
+    padding: 30px 60px;
+}
+
+i.temperature_popup_close {
+    position: absolute;
+    margin-top: -20px;
+    right: 10px;
+}
+
+.temperature_table {
+    width: 100%;
+    float: left;
+    max-height: 145px;
+    overflow-y: scroll;
+}
+
+ul.temperature_table_row {
+    list-style: none;
+    padding:0;
+    margin:0;
+    width: 100%;
+    float: left;
+}
+
+ul.temperature_table_row li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.temperature_table.column3 ul.temperature_table_row li {
+    width: 33.333333333%;
+}
+
+.temperature_table.column4 ul.temperature_table_row li {
+    width: 25%;
+}
+
+.temperature_table.column5 ul.temperature_table_row li {
+    width: 20%;
+}
+
+.temperature_table.column6 ul.temperature_table_row li {
+    width: 16.666666667%;
+}
+
+.temperature_table.column7 ul.temperature_table_row li {
+    width: 14.285714286%;
+}
+
+.temperature_table.column8 ul.temperature_table_row li {
+    width: 12.5%;
+}
+
+.temperature_module_popup .table-responsive  {
+    min-height: auto;
+}
+
+.temperature_module_popup .table {
+    margin-bottom: 0;
+}
+
+#select_temperature_templates ul.auto_complete_search_list {
+    bottom: 45px;
+}
+
+/* CSS for Responsive Mobile View */
+
+@media only screen and (max-width: 767px) {
+    #at2_popup .temperature_module_popup {
+        padding: 15px;
+        max-height: 100%;
+        overflow-y: scroll;
+    }
+}

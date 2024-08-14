@@ -1,0 +1,44 @@
+.notification_block h4 a {
+    font-weight: normal;
+    float: right;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+.notification_block h4 a:hover {
+    text-decoration: none;
+}
+
+.notification_block ul {
+    padding-top: 27.6px;
+}
+
+.notification_block ul li {
+    line-height: 18px;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0 0 10px;
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+.notification_block ul li.fade_bordered {
+    -webkit-box-shadow:inset 0 0 0 1px #102640;
+    -moz-box-shadow:inset 0 0 0 1px #102640;
+    box-shadow:inset 0 0 0 1px #102640;
+    transition:all 0.5s;
+}
+
+.notification_block span.activity_date {
+    font-size: 12px;
+}
+
+.notification_block .fa-times {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #f4f4f4;
+}

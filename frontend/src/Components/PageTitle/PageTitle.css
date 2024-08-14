@@ -1,0 +1,49 @@
+.title-block {
+    background-color: #e0eaeb;
+    padding: 13px 25px 13px;
+    margin-bottom: 15px;
+}
+
+.title-block h1 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.title-block-icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+    margin-right: 14px;
+}
+
+.welcome-block p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.33;
+}
+
+.page-heading-text{
+    display: inline-block;
+    padding: 11px 0;
+}
+
+.add_button_block {
+    float: right;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .page-heading-text{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .title-block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

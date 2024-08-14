@@ -1,0 +1,223 @@
+.block-input-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.screen-block-inputs form {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.model-screen-field-label {
+    line-height: 18px;
+    padding: 13px 0 0 0;
+}
+
+.vaccine_left_block .model-screen-field-label {
+    padding: 13.5px 0 0 0;
+}
+
+.screen-block-label {
+    padding: 0 0 3px 5px;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3a343a;
+}
+
+.screen-block-label i.fa-angle-down,
+.screen-block-label i.fa-angle-up {
+    position: absolute;
+    right: 6.5px;
+    top: 5px;
+}
+
+span.case_number {
+    font-weight: bold;
+    width: 12px;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.model_screen_form_row {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.screen-block-inputs input {
+    margin-bottom: 0;
+}
+
+.screen-block-inputs .slider {
+    height: 35px !important;
+}
+
+.slider .Slider-warp-1 .Slider-pointer-4,
+.slider .Slider-warp-1 .Slider-pointer-4:hover {
+    border: solid 1px #707070 !important;
+    background-color: #ffffff !important;
+}
+
+
+.slider .Slider-warp-13 .Slider-pointer-16,
+.slider .Slider-warp-13 .Slider-pointer-16:hover {
+    border: solid 1px #707070 !important;
+    background-color: #ffffff !important;
+}
+
+#mtb_total p {
+    padding: 0.45rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+input#mtb_selskap_antall_konsesjoner {
+    font-weight: bold;
+}
+
+.add_price_module {
+    padding-left: 5px;
+}
+
+.add_price_module i.fa {
+    font-size: 16px;
+    color: black;
+}
+
+.block_with_2_columns {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.block_with_2_columns .row {
+    position: unset;
+}
+
+.vaccine_left_block {
+    width: 32%;
+    float: left;
+}
+
+.vaccine_right_block {
+    width: 64%;
+    float: left;
+    padding-left: 5px;
+}
+
+.vaccine_case3 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.vaccine_case4 {
+    width: 50%;
+    float: left;
+}
+
+.vaccine_case5 {
+    width: 33.32%;
+    float: left;
+}
+
+.vaccine_input_cols {
+    width: 50%;
+    float: left;
+}
+
+.vaccine_case3 .vaccine_input_cols:nth-child(even) > .help_text_block,
+.vaccine_case3 .vaccine_input_cols:nth-child(even) .help_text_rpp_effect,
+.vaccine_case4:nth-child(odd) .vaccine_input_cols > .help_text_block,
+.vaccine_case4:nth-child(even) .vaccine_input_cols:nth-child(even) > .help_text_block,
+.vaccine_case4:nth-child(odd) .vaccine_input_cols .help_text_rpp_effect,
+.vaccine_case4:nth-child(even) .vaccine_input_cols:nth-child(even) .help_text_rpp_effect,
+.vaccine_case5:nth-child(1) .vaccine_input_cols > .help_text_block,
+.vaccine_case5:nth-child(2) .vaccine_input_cols > .help_text_block,
+.vaccine_case5:nth-child(3) .vaccine_input_cols:nth-child(even) > .help_text_block,
+.vaccine_case5:nth-child(1) .vaccine_input_cols .help_text_rpp_effect,
+.vaccine_case5:nth-child(2) .vaccine_input_cols .help_text_rpp_effect,
+.vaccine_case5:nth-child(3) .vaccine_input_cols:nth-child(even) .help_text_rpp_effect {
+    display: none;
+}
+
+.vaccine_input_cols:nth-child(odd) {
+    position: relative;
+}
+
+.vaccine_input_cols .model-screen-field-label {
+    white-space: nowrap;
+}
+
+#vaksinering_effekter_av_vaksine .help_text_block {
+    top: unset;
+    bottom: 27px;
+    right: -5px;
+}
+
+#vaksinering_effekter_av_vaksine .help_text_rpp_effect {
+    bottom: 7px;
+}
+
+/*@media only screen and (min-width: 769px) and (max-width: 1480px) {*/
+/*    .block_with_2_columns input {*/
+/*        width: 50%;*/
+/*        float: left;*/
+/*    }*/
+/*}*/
+
+.lakse_price_case_heading {
+    padding-left: 7.5px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1480px) {
+    .vaccine_left_block {
+        width: 39%;
+        float: left;
+    }
+
+    .vaccine_right_block {
+        width: 58%;
+        float: left;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 1070px) and (max-width: 1279px) {
+    .vaccine_left_block {
+        width: 50%;
+        float: left;
+    }
+
+    .vaccine_right_block {
+        width: 48%;
+        float: left;
+        padding-right: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1069px) {
+    .vaccine_left_block {
+        width: 60%;
+        float: left;
+    }
+
+    .vaccine_right_block {
+        width: 38%;
+        float: left;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .block-input-wrapper {
+        overflow-y: scroll;
+    }
+}

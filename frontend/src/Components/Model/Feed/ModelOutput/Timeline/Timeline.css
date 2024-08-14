@@ -1,0 +1,130 @@
+#feed_module_timeline {
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
+
+#feed_module_timeline p {
+    padding: 0;
+    margin: 0;
+}
+
+#feed_module_timeline ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+
+.timeline_preview.feeds3 ul li {
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+
+.timeline_output.feeds3 ul li {
+    display: inline-block;
+    width: 29.5%;
+    float: left;
+    text-align: left;
+}
+
+#feed_module_timeline ul.timeline_case1,
+#feed_module_timeline ul.timeline_case2 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+#feed_module_timeline ul.timeline_feed {
+    margin-bottom: 15px;
+}
+
+#feed_module_timeline ul.timeline_feed li {
+    background-color: #76af1b;
+    height: 25px;
+    text-align: center;
+    color: white;
+    position: relative;
+    border-left: 1px solid white;
+    overflow: hidden;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+#feed_module_timeline ul.timeline_feed li.blue_timeline {
+    background-color: #1573c3;
+}
+
+#feed_module_timeline ul.timeline_feed li.orange_timeline {
+    background-color: #ce7b6a;
+}
+
+#feed_module_timeline.timeline_output ul li:first-child {
+    text-align: left;
+    background: none;
+    color: #3a343a;
+    width: 10%;
+}
+
+ul.timeline_date li,
+ul.timeline_weight li {
+    padding: 0 5px;
+}
+
+ul.timeline_weight li {
+    font-weight: bold;
+}
+
+.timeline_date .date_start {
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+}
+
+.timeline_date .date_end {
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+}
+
+.timeline_weight .weight_start {
+    display: inline-block;
+    float: left;
+}
+
+.timeline_weight .weight_end {
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+}
+
+ul li.feed_line_remove {
+    color: red;
+}
+
+.drag_feed_weight {
+    display: inline-block;
+    position: absolute;
+    cursor: w-resize;
+    height: 100%;
+    top: 0;
+    right: 10px;
+    width: 30px;
+    z-index: 999;
+}
+
+#feed_module_timeline ul.timeline_feed li:first-child {
+    border: none;
+}
+
+
+#feed_module_timeline ul.timeline_feed li:last-child .drag_feed_weight {
+    display: none;
+}

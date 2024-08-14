@@ -1,0 +1,31 @@
+.report_reset_btn {
+    height: 35px;
+}
+
+#report_date_range_picker_panel {
+    position: relative;
+}
+
+#report_date_range_picker_panel .daterangepicker {
+    left: auto !important;
+    right: auto !important;
+    width: 490px;
+}
+
+/* CSS for Responsive Mobile View */
+
+@media only screen and (max-width: 767px) {
+    #report_page #search_panel .input_autocomplete_block,
+    #report_date_range_picker_panel {
+        margin-bottom: 15px;
+    }
+    .report_reset_btn {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+    #report_date_range_picker_panel .daterangepicker {
+        width: 100%;
+    }
+}

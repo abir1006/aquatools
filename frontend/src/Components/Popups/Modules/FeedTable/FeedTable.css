@@ -1,0 +1,118 @@
+#at2_popup .feed_table_popup {
+    width: 98%;
+    max-width: 1152px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+i.feed_table_popup_close {
+    position: absolute;
+    margin-top: -20px;
+    right: 10px;
+}
+
+#feed_table {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#feed_table > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+#feed_table > ul > li {
+    display: inline-block;
+    width: 7%;
+    float: left;
+    padding: 0 0.5rem;
+}
+
+#feed_table > ul.head > li {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#feed_table > ul > li:first-child {
+    width: 40%;
+}
+
+/*#feed_table > ul > li:nth-child(7) {*/
+/*    width: 160px;*/
+/*}*/
+
+
+#feed_table > ul > li input.form-control {
+    height: 35px;
+}
+
+/*#feed_table > ul > li.feed_line_remove {*/
+/*    width: 26px;*/
+/*}*/
+
+
+#feed_table > ul > li:nth-child(8) {
+    width: 16%;
+    white-space: nowrap;
+}
+
+#feed_table > ul > li:last-child {
+    width: 2%;
+}
+
+.feed_action_btn button {
+    margin-right: 15px;
+}
+
+#feed_table .input_autocomplete_block i.fa-angle-down,
+#feed_table .input_autocomplete_block i.fa-angle-up {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+#timeline_preview_panel {
+    min-height: 130px;
+}
+
+#feed_table .input_autocomplete_block {
+    position: static;
+}
+
+#feed_table ul.auto_complete_search_list {
+    width: 36%;
+}
+
+#feed_table .input_autocomplete_block i.fa-angle-down,
+#feed_table .input_autocomplete_block i.fa-angle-up {
+    position: static !important;
+    float: right;
+    margin-top: -36px;
+    margin-right: 10px;
+}
+
+#feed_table .field_color_span {
+    position: relative;
+    float: right;
+    right: auto;
+    top: auto;
+    width: 20px;
+    margin-right: 30px;
+    margin-top: -36px;
+}
+
+
+#feed_table .list_color_span {
+    width: 20px;
+}
+
+#feed_table .input-disable input {
+    background-color: #e4e4e4;
+}

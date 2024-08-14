@@ -1,0 +1,27 @@
+version: '3'
+services:
+    at2_frontend:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            REACT_APP_AUTH0_DOMAIN: login.spillfree.no
+            REACT_APP_AUTH0_CLIENT_ID: LWLOi2JNz6D308S5v2YiRzRi3age7vGY
+            REACT_APP_AUTH0_AUDIENCE: https://dev.spillfree.no
+            REACT_APP_AUTH0_SCOPE: "openid profile email"
+            REACT_APP_PUSHER_APP_KEY: 568e61a7252855742a16
+            REACT_APP_PUSHER_APP_CLUSTER: ap1
+            REACT_APP_BACKEND_API_URL: https://dev.v2.api.aquatools.spillfree.eu
+            REACT_APP_TOOLBOX_DASHBOARD_URL: https://dev.toolbox.spillfree.eu
+            REACT_APP_TOOLBOX_API_BASE_URL: https://dev.toolbox.spillfree.eu/api
+            REACT_APP_SSO_AFTER_LOGOUT_URL: https://dev.toolbox.spillfree.eu/login
+            REACT_APP_TOOLBOX_URL: https://dev.toolbox.spillfree.eu
+            REACT_APP_TOOLBOX_MEDIA_URL: https://dev.toolbox.spillfree.eu/media/images
+
+        ports:
+            - "3000:80"
+        container_name: at2_frontend
+        restart: unless-stopped
+        stdin_open: true
+        volumes:
+            - .:/usr/src/app

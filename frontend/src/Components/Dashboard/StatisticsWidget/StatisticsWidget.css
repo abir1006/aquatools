@@ -1,0 +1,75 @@
+.statistics_widgets_block {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.stats_widget_block {
+    width: 15.3%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 23px;
+    margin-bottom: 15px;
+}
+
+.statistics_widgets_block .stats_widget_block:last-child {
+    margin-right: 0;
+}
+
+.stats_widget_block p {
+    padding: 10px 0;
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.widget_circle {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 74px;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3a343a;
+}
+
+.widget_circle p {
+    font-size: 12px;
+    line-height: 1;
+    padding: 9px 0 0 0;
+    margin: 0;
+    text-transform: uppercase ;
+}
+
+.widget_circle p span {
+    font-size: 28px;
+}
+
+
+/* CSS for Responsive Mobile View */
+
+@media only screen and (max-width: 767px) {
+    .stats_widget_block {
+        padding-top: 15px;
+        width: 29.5%;
+    }
+
+    .statistics_widgets_block .stats_widget_block:nth-child(3) {
+        margin-right: 0;
+    }
+    .statistics_widgets_block .stats_widget_block:nth-child(6) {
+        margin-right: 0;
+    }
+
+    .stats_widget_block p {
+        margin-bottom: 5px;
+    }
+}

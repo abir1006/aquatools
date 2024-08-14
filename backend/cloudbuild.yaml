@@ -1,0 +1,15 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+          'build',
+          '-t',
+          'europe-north1-docker.pkg.dev/aquatools-290213/images/at2_backend',
+          '.'
+      ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+          'push',
+          'europe-north1-docker.pkg.dev/aquatools-290213/images/at2_backend'
+      ]

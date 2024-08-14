@@ -1,0 +1,65 @@
+#model_tool_bar .input_autocomplete_block {
+}
+
+#model_tool_bar .input_autocomplete_block input {
+    border: solid 2px #000000;
+    margin-bottom: 0;
+}
+
+.model-setup-settings {
+    cursor: pointer;
+    position: relative;
+}
+
+.model-block-dropdown-panel {
+    position: relative;
+}
+
+.model-setup-settings i.fa-angle-down,
+.model-setup-settings i.fa-angle-up {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.model-setup-settings p {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.block-list-dropdown {
+    z-index: 99;
+    list-style: none;
+    padding: 0 15px 15px;
+    margin: 0;
+    top: 47px;
+    position: absolute;
+    background: white;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.block-list-dropdown li {
+    width: 33.3333333333%;
+    float: left;
+}
+
+.block-list-dropdown li span.checkbox_text {
+    color: #000000;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+@media only screen and (max-width: 767px) {
+    .block-list-dropdown {
+        top: 62px;
+    }
+}

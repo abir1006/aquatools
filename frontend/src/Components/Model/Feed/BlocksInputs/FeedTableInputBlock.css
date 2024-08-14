@@ -1,0 +1,21 @@
+#feed_table_inputs span.field_color_span {
+    width: 18px;
+    right: 35px;
+}
+
+#feed_table_inputs span.list_color_span {
+    width: 18px;
+    position: absolute;
+    right: 5px;
+}
+
+#feed_table_inputs .input_autocomplete_block input {
+    padding-right: 35px;
+    white-space: nowrap;
+}
+
+#feed_table_inputs form.input-disable {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #e8e8e8;
+}

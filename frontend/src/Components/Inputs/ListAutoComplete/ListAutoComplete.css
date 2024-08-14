@@ -1,0 +1,62 @@
+.input_autocomplete_block {
+    position: relative;
+    width: 100%;
+}
+
+.input_autocomplete_block i.fa-angle-down,
+.input_autocomplete_block i.fa-angle-up {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+
+ul.auto_complete_search_list {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+ul.auto_complete_search_list li {
+    cursor: pointer;
+    padding: 4px 0;
+    line-height: 18px;
+}
+
+ul.auto_complete_search_list li.list_group {
+    font-weight: bold;
+}
+
+ul.auto_complete_search_list.has_list_group li {
+    padding-left: 5px;
+}
+
+ul.auto_complete_search_list.has_list_group li.list_group {
+    padding-left: 0;
+}
+
+ul.auto_complete_search_list li.selected_item {
+    background-color: #cecece;
+}
+
+span.list_color_span {
+    float: right;
+    display: inline-block;
+    width: 95px;
+    height: 18px;
+}
+
+span.field_color_span {
+    position: absolute;
+    right: 45px;
+    top: 11px;
+    display: inline-block;
+    width: 95px;
+    height: 18px;
+}

@@ -1,0 +1,14 @@
+.case_name_editor {
+    position: relative;
+}
+
+.case_name_editor .case_no_editor {
+    max-width: 100%;
+}
+
+.case_name_editor .fa-check {
+    position: absolute;
+    right: -12px;
+    top: 0;
+    z-index: 99;
+}

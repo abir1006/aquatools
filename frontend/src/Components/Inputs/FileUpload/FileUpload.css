@@ -1,0 +1,39 @@
+.at2_file_upload {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.uploaded_file {
+    /*width: 170px;*/
+    /*height: 120px;*/
+    /*line-height: 120px;*/
+    /*background-color: white;*/
+    /*margin-bottom: 10px;*/
+    /*text-align: center;*/
+    /*overflow: hidden;*/
+    height: 125px;
+    background-color: white;
+    margin-bottom: 5px;
+    text-align: left;
+    overflow: hidden;
+    width: auto;
+    display: inline-block;
+    padding: 2px;
+}
+
+.blank_image {
+    display: flex;
+    width: 170px;
+    height: 120px;
+
+}
+
+.at2-upload-button {
+    width: 170px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #102640;
+    font-weight: bold;
+    text-transform: uppercase;
+}

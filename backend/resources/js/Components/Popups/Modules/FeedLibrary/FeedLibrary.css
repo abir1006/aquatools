@@ -1,0 +1,67 @@
+#at2_popup .feed_library_popup {
+    max-width: 1024px;
+    padding: 30px;
+    margin-top: -200px;
+}
+
+.feed_library_popup .at2_check_box_block {
+    margin-top: 3px;
+}
+
+i.feed_library_popup_close {
+    position: absolute;
+    margin-top: -20px;
+    right: 10px;
+}
+
+#feed_table {
+    width: 100%;
+    /*overflow-x: scroll;*/
+}
+
+#feed_table > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+#feed_table > ul > li {
+    display: inline-block;
+    float: left;
+    padding: 0 0.5rem;
+}
+
+#feed_table > ul.head > li {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#feed_table > ul > li input.form-control {
+    height: 35px;
+}
+
+.feed_action_btn button {
+    margin-right: 15px;
+}
+
+#feed_table .input_autocomplete_block i.fa-angle-down,
+#feed_table .input_autocomplete_block i.fa-angle-up {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+select.no_feed_cost_error {
+    border-color: red;
+}
+
+
+i.feed_added {
+    color: #76af1b;
+    margin-left: 5px;
+}

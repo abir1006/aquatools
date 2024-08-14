@@ -1,0 +1,73 @@
+.company_form_password {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+
+.price_summery {
+    text-align: right;
+    color: #3a343a;
+    font-weight: 600;
+}
+
+.price_summery .label,
+.price_summery .price {
+    padding: 0;
+    margin: 0;
+}
+
+.price_summery .label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.price_summery .price {
+    font-size: 28px;
+    letter-spacing: normal;
+    line-height: 28px;
+}
+
+.price_summery .price span {
+    margin-right: 3px;
+}
+
+#total_price_section p {
+    padding: 0;
+    margin: 0;
+}
+
+#total_price_section .total_price_heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3a343a;
+}
+
+#total_price_section .total_price_amount {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3a343a;
+    text-align: right;
+}
+
+#total_price_section .total_price_amount span {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #3a343a;
+    margin-right: 12px;
+}
+
+#total_price_section .total_price_amount span.nok_symbol {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3a343a;
+    text-align: right;
+    margin-right: 2px;
+}
+
+i.block-unblock {
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}

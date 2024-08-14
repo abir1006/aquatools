@@ -1,0 +1,35 @@
+.discount_block {
+    position: relative;
+    margin-left: 13px;
+}
+
+.discount_block input {
+    margin: 0;
+    padding: 0 5px;
+    display: inline-block;
+    float: left;
+    line-height: 18px;
+    height: 18px;
+}
+
+.discount_block i {
+    position: absolute;
+    top: 2px;
+    right: -10px;
+    color: #3a343a;
+    font-size: 10px;
+    cursor: pointer;
+    -webkit-text-stroke: unset ;
+    -webkit-text-stroke-color: transparent;
+}
+
+.discount_block i.fa-times {
+    position: absolute;
+    right: -5px;
+    top: -12px;
+}
+
+.discount_percentage {
+    position: absolute;
+    font-size: 12px;
+}

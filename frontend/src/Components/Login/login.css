@@ -1,0 +1,28 @@
+.at2_login_card {
+    padding: 0 9.1px 0 9.1px;
+    border: none;
+    text-align: center;
+}
+
+.card .form-signin input {
+    text-align: center;
+}
+
+.login_logo_panel {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+img.logo.login_page {
+    width: 222px;
+    height: auto;
+}
+
+.lost-password-panel a {
+    text-decoration: underline;
+}
+
+.lost-password-panel a:hover {
+    text-decoration: none;
+}

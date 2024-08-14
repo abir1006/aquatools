@@ -1,0 +1,21 @@
+#model_tool_bar .btn {
+    margin-top: 0;
+}
+
+#model_tool_bar .input_autocomplete_block {
+}
+
+#model_tool_bar .input_autocomplete_block input {
+    border: solid 2px #000000;
+    margin-bottom: 0;
+}
+
+
+/* CSS for Responsive Mobile View */
+
+@media only screen and (max-width: 575px) {
+    .reports_panel {
+        margin-top: 15px;
+    }
+}
+

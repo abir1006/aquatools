@@ -1,0 +1,10 @@
+.atv2-action-btn {
+    text-transform: uppercase;
+}
+
+.atv2-action-btn.btn-active,
+.atv2-action-btn.btn-active:active,
+.atv2-action-btn.btn-active:focus{
+    background: white !important;
+    color: #3a343a !important;
+}

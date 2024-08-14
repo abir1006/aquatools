@@ -1,0 +1,56 @@
+.model_blocks .block_action_buttons {
+    float: right;
+}
+
+.block_inputs {
+    width: 100%;
+    float: left;
+}
+
+.block_inputs .action_buttons {
+    float: right;
+}
+
+.block_inputs_collapsed .at2_check_box_block {
+    float: right;
+    margin: 7px 0 0 10px;
+}
+
+.block_inputs_collapsed .at2_check_box_block .at2_check_box {
+    width: 15px;
+    height: 15px;
+    margin-right: 0;
+}
+
+.block_inputs_collapsed .at2_check_box_block .at2_check_box i {
+    font-size: 14px;
+}
+
+.block_inputs_collapsed .at2_check_box_block .at2_check_box i.fa-check-thin {
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: white;
+}
+
+
+/*Blocks area*/
+
+
+.model_blocks_collapsed .at2_check_box_block {
+    float: right;
+    margin: 7px 0 0 10px;
+}
+
+.model_blocks_collapsed .at2_check_box_block .at2_check_box {
+    width: 15px;
+    height: 15px;
+    margin-right: 0;
+}
+
+.model_blocks_collapsed .at2_check_box_block .at2_check_box i {
+    font-size: 14px;
+}
+
+.model_blocks_collapsed .at2_check_box_block .at2_check_box i.fa-check-thin {
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: white;
+}

@@ -1,0 +1,27 @@
+#template_page .tab_heading h2 {
+    line-height: 2;
+}
+
+#template_page .fa-times {
+    color: red;
+}
+
+
+#template_sharing_component label {
+    line-height: 2;
+    cursor: pointer;
+}
+
+#template_sharing_component input[type=radio] {
+    cursor: pointer;
+}
+
+
+.template_share_access {
+    padding-left: 12px;
+    padding-bottom: 15px;
+}
+
+.template_share_access span.checkbox_text {
+    font-weight: bold;
+}

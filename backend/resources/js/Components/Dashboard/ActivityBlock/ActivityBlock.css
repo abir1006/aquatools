@@ -1,0 +1,37 @@
+.activity_block h4 a {
+    font-weight: normal;
+    float: right;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+.activity_block h4 a:hover {
+    text-decoration: none;
+}
+
+.activity_block ul {
+    padding-top: 27.6px;
+}
+
+.activity_block ul li {
+    line-height: 18px;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0 0 10px;
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+.activity_block span.activity_date {
+    font-size: 12px;
+}
+
+.activity_block .fa-times {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #f4f4f4;
+}

@@ -1,0 +1,61 @@
+.at2_check_box_block {
+    display: inline-block;
+    margin: 15px 0 0 0;
+    float: left;
+}
+
+.at2_check_box {
+    cursor: pointer;
+    margin-right: 10px;
+    float: left;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #3a343a;
+    background-color: #fff;
+}
+
+.at2_check_box i {
+    font-size: 16px;
+    float: left;
+    margin-left: 0;
+    color: #3a343a;
+}
+
+.at2_check_box i.fa-check-thin {
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+span.checkbox_text {
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    margin: 0;
+    line-height: 18px;
+}
+
+span.each_model_price{
+    float: left;
+    padding: 0;
+    margin: 15px 0 0 5px;
+    line-height: 18px;
+}
+
+div.editableWrapper{
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+div.editableWrapper span.currency{
+    margin-right: 2px;
+}
+
+span.each_model_price span {
+    float: left;
+}
+
+span.company_editable_wrapper{
+    display: inline-block;
+    width: 65px;
+}

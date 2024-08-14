@@ -1,0 +1,115 @@
+.block-input-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.screen-block-inputs form {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.model-screen-field-label {
+    line-height: 18px;
+    padding: 13px 0 0 0;
+}
+
+.vaccine_left_block .model-screen-field-label {
+    padding: 13.5px 0 0 0;
+}
+
+.screen-block-label {
+    padding: 0 0 3px 5px;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3a343a;
+}
+
+.screen-block-label i.fa-angle-down,
+.screen-block-label i.fa-angle-up {
+    position: absolute;
+    right: 6.5px;
+    top: 5px;
+}
+
+span.case_number {
+    font-weight: bold;
+    width: 12px;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.model_screen_form_row {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.screen-block-inputs input {
+    margin-bottom: 0;
+}
+
+.screen-block-inputs .slider {
+    height: 35px !important;
+}
+
+.slider .Slider-warp-1 .Slider-pointer-4,
+.slider .Slider-warp-1 .Slider-pointer-4:hover {
+    border: solid 1px #707070 !important;
+    background-color: #ffffff !important;
+}
+
+
+.slider .Slider-warp-13 .Slider-pointer-16,
+.slider .Slider-warp-13 .Slider-pointer-16:hover {
+    border: solid 1px #707070 !important;
+    background-color: #ffffff !important;
+}
+
+#mtb_total p {
+    padding: 0.45rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+input#mtb_selskap_antall_konsesjoner {
+    font-weight: bold;
+}
+
+.add_price_module {
+    padding-left: 5px;
+}
+
+.add_price_module i.fa {
+    font-size: 16px;
+    color: black;
+}
+
+.block_with_2_columns {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.block_with_2_columns .row {
+    position: unset;
+}
+
+.lakse_price_case_heading {
+    padding-left: 7.5px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+
+.input-range__label input-range__label--value,
+.input-range__label-container {
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .block-input-wrapper {
+        overflow-y: scroll;
+    }
+}

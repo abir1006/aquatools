@@ -1,0 +1,126 @@
+#at2_popup {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.27);
+    z-index: 9999999;
+}
+
+#at2_popup .popup_box {
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
+    background-color: rgba(247, 247, 237, 1);
+    z-index: 999;
+}
+
+#at2_popup .confirm_popup_box {
+    max-width: 280px;
+    min-height: 153px;
+    margin-top: -126px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#at2_popup .confirm_popup_box h5 {
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+#at2_popup .confirm_popup_box button.default-btn-atv2 {
+    min-width: 64.8px;
+    padding: 0;
+    margin: 0 7.5px;
+}
+
+.at2_popup {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.27);
+    z-index: 9999999;
+}
+
+.at2_popup .popup_box {
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
+    background-color: rgba(247, 247, 237, 1);
+    z-index: 999;
+}
+
+.at2_popup .confirm_popup_box {
+    margin-top: -126px;
+    text-align: center;
+    padding: 10px;
+}
+
+.at2_popup .confirm_popup_box h5 {
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.at2_popup .confirm_popup_box button.default-btn-atv2 {
+    min-width: 64.8px;
+    padding: 0;
+    margin: 0 7.5px;
+}
+
+
+#at2_notification_popup {
+    position: absolute;
+    top: 0;
+    padding: 0 15px 0 0;
+    width: 100%;
+    height: 0;
+    overflow-y: hidden;
+    z-index: 999999;
+}
+
+#at2_notification_popup.show {
+    height: 100%;
+    max-height: 75px;
+    transition-duration: 1s;
+}
+
+#at2_notification_popup.hide {
+    max-height: 0;
+    overflow: hidden;
+    transition-duration: .25s;
+}
+
+#at2_notification_popup .notification_wrap {
+    padding: 22px 0;
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px #76af1b;
+    background-color: #f7f7ed;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+}
+
+#at2_notification_popup img {
+    margin-right: 9px;
+}
+
+i.popup_close {
+    position: absolute;
+    margin-top: -37px;
+    right: 5px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #at2_popup {
+        padding: 0 10px;
+    }
+}

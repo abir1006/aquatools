@@ -1,0 +1,23 @@
+.editable_block {
+    /*position: relative;*/
+}
+
+.editable_block input {
+    margin: 0;
+    padding: 0 2px;
+    display: inline-block;
+    float: left;
+    line-height: 18px;
+    height: 18px;
+}
+
+.editable_block i {
+    color: #3a343a;
+    position: absolute;
+    font-size: 10px;
+    cursor: pointer;
+    right: -11px;
+    top: 2px;
+    -webkit-text-stroke: unset ;
+    -webkit-text-stroke-color: transparent;
+}

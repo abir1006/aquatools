@@ -1,0 +1,23 @@
+.input_autocomplete_block {
+    position: relative;
+    width: 100%;
+}
+
+ul.auto_complete_search_list {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+ul.auto_complete_search_list li {
+    cursor: pointer;
+    padding: 4px 0;
+    line-height: 18px;
+}

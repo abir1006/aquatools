@@ -1,0 +1,40 @@
+#users_page th.sortable {
+    cursor: pointer;
+}
+.react-photoswipe-gallery > img{
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+    max-width: 162px;
+    max-height: 112px;
+    cursor: pointer;
+}
+.materials_filters .at2_dropdown{margin-top: 0;}
+
+.large-v-gap{
+    margin-bottom: 300px!important;
+}
+
+.badge-paid{
+    color:#fff;
+    background-color: #f6993f;
+
+}
+
+.badge-free{
+    color:#fff;
+    background-color: #38c172;
+
+}
+.modelsselector .at2_check_box_block{
+    margin-right: 30px;
+}
+.title:hover{
+    text-decoration: none;
+    color: gray
+}
+
+.badge-gray{
+    background-color: darkgray;
+    color: #fff;
+}

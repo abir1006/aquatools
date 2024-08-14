@@ -1,0 +1,127 @@
+.settings_tabs {
+    width: 100%;
+    float: left;
+}
+
+.settings_tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings_tabs ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.settings_tabs ul li a,
+.settings_tabs ul li a:hover {
+    text-decoration: none;
+    cursor:pointer;
+
+}
+
+.settings_tabs ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    padding: 13px 30px;
+}
+
+.settings_tabs ul li.active a {
+    background-color: white;
+}
+
+
+.settings_tab_content {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+.tab_heading {
+    padding: 0 15px;
+    width: 100%;
+    float: left;
+}
+
+.tab_heading h2 {
+    color: #1573c3;
+    font-size: 22px;
+}
+
+.permission_name {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.permission_name .permission_label {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+.permission_actions {
+    display: none;
+    padding: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.permission_actions.show {
+    display: block;
+}
+
+.permission_actions span {
+    margin-right: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.edit-block .default-btn-atv2 {
+    margin-left: 15px;
+}
+
+ul#feed_library_field_list {
+    padding: 15px 15px 30px 5px;
+    width: 100%;
+    float: left;
+}
+
+ul#feed_library_field_list li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #dedede;
+}
+
+i.add_feed_field_list {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+ul#feed_library_field_list li i {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .settings_tabs ul li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .settings_tabs ul li a {
+        width: 100%;
+    }
+
+    .tab_heading {
+        padding: 0;
+    }
+}

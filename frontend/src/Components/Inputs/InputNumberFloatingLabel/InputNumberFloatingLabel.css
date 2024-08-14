@@ -1,0 +1,12 @@
+.input_floating_label {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.input_floating_label .floating_label {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    color: #818181;
+}

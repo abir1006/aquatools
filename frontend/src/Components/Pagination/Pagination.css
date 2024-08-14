@@ -1,0 +1,17 @@
+.pagination {
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item.active .page-link {
+    background-color: #1573c3;
+    border-color: #1573c3;
+}
+
+a:focus,
+.page-item.active a {
+    outline: none;
+    background: none;
+    box-shadow: none;
+    border-radius: unset;
+}

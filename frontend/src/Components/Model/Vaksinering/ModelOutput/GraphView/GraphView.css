@@ -1,0 +1,66 @@
+.graph-col {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.graph-content {
+    width: 100%;
+    float: left;
+}
+
+.graph-plot {
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.recharts-wrapper {
+    font-size: 12px;
+}
+
+.recharts-bar-rectangle:hover {
+    opacity: 0.75;
+}
+
+.custom-tooltip {
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.custom-tooltip p {
+    padding: 0;
+    margin: 0;
+}
+
+h5.output-heading {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.recharts-cartesian-axis-tick tspan {
+    white-space: pre-wrap;
+}
+
+@media only screen and (min-width: 768px) {
+    #graph-wrapper {
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    h5.output-heading {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .graph-col {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .graph-col {
+        width: 100% !important;
+    }
+}

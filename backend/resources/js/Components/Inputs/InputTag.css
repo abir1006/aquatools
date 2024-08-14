@@ -1,0 +1,67 @@
+.tag-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+
+  }
+
+  .tag-wrapper input {
+    border: 0;
+    outline: 0;
+  }
+
+  .tag-field {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .tag {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background: darkgray;
+
+  }
+  .tag-close {
+    display: inline-block;
+    margin-left: 0;
+    width: 0;
+    transition: 0.2s all;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .tag button {
+    display: flex;
+    padding: 6px;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    color: white;
+  }
+
+  .list-group {
+    background-color: white;
+    display: block;
+    list-style-type: none;
+    position: absolute;
+    width: 200px;
+    z-index: 100;
+}
+
+.list-group > li {
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+
+.tag-input:focus + .list-group {
+  display: block;
+}
